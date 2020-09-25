@@ -4,6 +4,6 @@ public class Main {
         double weight = 77.5;
         double height = 1.68;
         double bmi = service.calculate(weight, height);
-        System.out.println(bmi);
+          System.out.printf("Индекс массы тела %2f",bmi);
     }
 }
